@@ -31,6 +31,7 @@ Source:         ding-%{version}.tar.xz
 BuildRequires:  gobject-introspection
 BuildRequires:  meson >= 0.44.0
 Requires:       (nautilus or nemo)
+BuildArch: noarch
 
 %description
 This package provides a GNOME Shell extension for showing the contents
