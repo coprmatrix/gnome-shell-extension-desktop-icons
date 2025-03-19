@@ -28,10 +28,8 @@ URL:            https://gitlab.com/rastersoft/desktop-icons-ng
 Source:         ding-%{version}.tar.xz
 
 # Needed for directory ownership
-BuildRequires:  gnome-shell >= 45
 BuildRequires:  gobject-introspection
 BuildRequires:  meson >= 0.44.0
-Requires:       gnome-shell
 Requires:       (nautilus or nemo)
 
 %description
